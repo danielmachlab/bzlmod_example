@@ -1,0 +1,6 @@
+module(
+    name = "bzlmod_demo",
+    version = "1.0",
+)
+
+bazel_dep(name = "zlib", version = "1.2.11")
